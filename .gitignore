@@ -6,6 +6,9 @@ __pycache__/
 clean_static.py
 .env
 
+# Claude Code 專案本地設定 (本機預覽伺服器、權限設定)
+.claude/
+
 # 開發筆記與流程紀錄
 GEMINI.md
 *.md
@@ -13,3 +16,14 @@ GEMINI.md
 
 # Windows 系統暫存檔 (建議加入)
 Thumbs.db
+
+# 材料對照表頁面的源檔與中間產物
+# 最終 HTML 是透過 Elementor 進到 WordPress、再由 HTTrack 抓進 material/index.html，
+# 所以這些檔案不需要 commit 到公開的 GitHub Pages repo
+Material data.xlsx
+build_material_data.py
+material-page.template.html
+material-page-standard.html
+material-page-drinking-water.html
+material-data.json
+_preview_material.html
