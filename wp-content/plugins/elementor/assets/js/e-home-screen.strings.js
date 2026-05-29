@@ -1,3 +1,4 @@
+__( "We couldn't load this content right now. Please try again later.", 'elementor' );
 __( 'Quick Start', 'elementor' );
 __( 'Edit site', 'elementor' );
 __( 'Name your page', 'elementor' );
@@ -6,9 +7,5 @@ __( 'or rename it later.', 'elementor' );
 __( 'New Page', 'elementor' );
 __( 'Cancel', 'elementor' );
 __( 'Save', 'elementor' );
-__( 'Name your page', 'elementor' );
-__( 'To proceed, please name your first page,', 'elementor' );
-__( 'or rename it later.', 'elementor' );
-__( 'New Page', 'elementor' );
-__( 'Cancel', 'elementor' );
-__( 'Save', 'elementor' );
+__( 'Multi-page', 'elementor' );
+__( 'One-page', 'elementor' );
